@@ -1,4 +1,4 @@
-import  { open, appendFile, access } from 'node:fs/promises';
+import  { open, appendFile } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
