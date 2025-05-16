@@ -11,8 +11,7 @@ const write = async () => {
 
         const writableStream = createWriteStream(filePath);
         
-        process.stdin.pipe(writableStream);
-
+        //process.stdin.pipe(writableStream);
         // writableStream.on('error', (err) => {
         //     throw new Error('FS operation failed');
         // });
